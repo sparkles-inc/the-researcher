@@ -61,6 +61,27 @@ Bowling every ~6 months, December party, mid-year party. Simple, consistent, rel
 ### Performance management
 Underperformers get deprioritized for scheduling (fewer hours = natural consequence). Work stops immediately on termination decision.
 
+## Territory strategy
+
+Active adult communities are gold. One-story homes, newly retired, disposable income, consistent schedules. Work with realtors for co-marketing. Use NextDoor for referral marketing in specific neighborhoods.
+
+"Oversaturation" is a concept, not a curse. There's always room if you carve a niche and narrow your territory. The businesses that struggle with competition are the ones trying to serve everyone everywhere.
+
+## Seasonal upsell calendar
+
+Revenue doesn't have to be flat. Month-by-month opportunities:
+- **Jan-Feb:** Indoor deep cleaning, organizing (fill the slow season)
+- **Mar-May:** Appliance cleaning, window washing, gutter cleaning
+- **Jun-Aug:** Pressure washing, pantry cleaning, defrosting freezers, garage organizing
+- **Sep-Oct:** Leaf removal, attic organizing
+- **Nov-Dec:** Holiday decorating, guest rooms, tree trimming/takedown
+
+Businesses without a seasonal strategy have revenue dips they blame on "slow months." Slow months aren't slow. They're just unplanned.
+
+## The worksheet is a sales tool
+
+The checklist itself isn't just accountability. It's a closing mechanism. A well-designed worksheet uses psychology, scarcity, and clear scope to close the sale during the walkthrough. "This is exactly what you're getting. This is what's not included. Here's what I recommend adding." The client sees professionalism, transparency, and expertise in one document.
+
 ## Growth strategy (Hormozi Value Ladder)
 
 ### The flywheel

@@ -68,5 +68,23 @@ The walkthrough is where the sale happens. It creates the permanent, customized 
 6. Additional manual text after first service
 7. Leave paper checklists after maintenance and deep cleans
 
+## Client scorecard
+
+Rate every potential client 1-10 on each:
+1. Are they polite?
+2. Are they reasonable?
+3. Do they have authority to pay?
+4. Are they respectful of you and your business?
+5. Are they going to be easy to work for?
+6. Did they ask good questions to clarify expectations?
+7. Did they give clear answers to your questions?
+8. Can you realistically deliver what's being promised?
+
+Score below 50 out of 80? Walk away. Don't take the client. Trust the scorecard. The cost of a bad-fit client is always higher than the revenue they bring.
+
+## Credentials close more sales
+
+Third-party verification, ID badges, training certifications. This is the missing piece from most walkthroughs. Clients need to trust before they buy, and credentials are the fastest trust shortcut. A business without visible credentials is leaving conversions on the table.
+
 ## The overarching philosophy
 Prevention beats resolution. Proper qualification, expectation-setting, and the intake-to-walkthrough sequence eliminate most complaints before they happen.

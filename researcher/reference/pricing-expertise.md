@@ -43,6 +43,18 @@ Key elements:
 - Express hope they'll stay for the next chapter
 - Loyal customer perk: extend current rate for 6 more months while new clients start at the new professional rate
 
+## Cancellation fees
+
+Don't pull a number out of thin air. Calculate the actual cost of a cancellation: lost revenue + travel already spent + opportunity cost of the slot you can't fill. That's your fee. A $125 cancellation fee should be defensible with math, not just "that's what everyone charges."
+
+Businesses without a cancellation cost formula either undercharge (and eat the loss) or don't enforce cancellations at all (and lose thousands per year to no-shows).
+
+## Commute kills profit
+
+Budget travel time into your rates. The smartest operators schedule by geographic hub. Same neighborhood, same day. Route stacking eliminates wasted commute time and money. You only need 10 houses per week for a full schedule if they're clustered right.
+
+A business with clients scattered across a metro area is working twice as hard for the same money.
+
 ### What the researcher needs to ask before building the letter
 
 1. What is your current rate?

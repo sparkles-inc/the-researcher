@@ -71,6 +71,27 @@ Every signal the researcher evaluates, organized by category, with specific thre
 | Eco-friendly | Natural products, green positioning | Growing differentiator. Clients with kids and pets care. |
 | Cancellation policy | Visible and clear | Professional businesses have this visible. |
 
+## Red Flags for Struggling Businesses
+
+When diagnosing a business, probe for these. Each one is a symptom of deeper problems:
+
+| Signal | What it means |
+|--------|--------------|
+| No written agreements with clients | Covert contracts destroying relationships. Unspoken expectations = guaranteed complaints. |
+| Flat-rate pricing without variable assessment | Losing money on complex homes, overcharging simple ones. No walkthrough process. |
+| Giving prices over the phone | Low close rates. The walkthrough is where the sale happens. |
+| No distinction between maintenance/deep/special | Scope creep, client confusion, unprofitable jobs. |
+| Hiring on gut feeling | No scorecard, no evaluation system. Will hire wrong and pay for it. |
+| No cancellation cost formula | Undercharging for no-shows or not enforcing cancellations at all. |
+| Clients scattered across the metro | Commute eating all profit. No geographic hub strategy. |
+| No complaint-handling system | Repeating the same mistakes, losing clients to preventable problems. |
+| No seasonal upsell strategy | Revenue dips blamed on "slow months" that aren't actually slow. |
+| Taking every client who calls | No scorecard. Draining time on bad fits who will leave bad reviews. |
+| No satisfaction guarantee | Losing sales to competitors who offer one. |
+| Texting prospects instead of calling | Missing 67% of walkthrough conversions. |
+| No credentials visible | ID badges, certifications, third-party verification missing from walkthroughs. |
+| Not tracking cost of problems | Can't make data-driven decisions about where money leaks. |
+
 ## Operations & AI Readiness
 
 | Signal | What to look for | Threshold / Opinion |
