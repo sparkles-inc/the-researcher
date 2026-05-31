@@ -41,7 +41,7 @@ The frameworks behind these insights come from running a real cleaning company. 
 
 Visit [app-sparkles-inc.vercel.app](https://app-sparkles-inc.vercel.app) to use the researcher with real-time Google Places integration, website scraping, and business diagnosis.
 
-**See an example output:** [Superb Maids Portland -- Diagnose & Offer Services](https://app-sparkles-inc.vercel.app/client/superb-maids-portland?generated=true)
+**Example output from the tool:** [Superb Maids Portland -- Diagnose & Offer Services](https://app-sparkles-inc.vercel.app/client/superb-maids-portland?generated=true)
 
 ## Example prompts
 
@@ -67,14 +67,18 @@ researcher/
   rules.md             -- How it thinks, investigates, and reasons
   examples.md          -- Real conversations showing the researcher in action
   reference/
-    booking-ratings-research.md      -- 50 businesses: booking type vs ratings
-    deep-business-analysis.md        -- 35 businesses: 98-point scoring model
-    gbp-pricing-density-research.md  -- 40 businesses: GBP, pricing, market density
-    rating-correlation-analysis.md   -- 101 businesses: what predicts rating
-    constraint-framework.md          -- Three growth levers + special cases
-    signal-checklist.md              -- Every signal with specific thresholds
+    constraint-framework.md          -- The three growth levers every business maps to
     source-credibility.md            -- How to weigh different data sources
-    must-have-checklist.md           -- 27-point operational scoring rubric
+    signal-checklist.md              -- What to look for and what it means
+    must-have-checklist.md           -- Operational scoring rubric
+    pricing-expertise.md             -- How cleaning pricing actually works
+    hiring-expertise.md              -- What to look for in cleaners
+    operations-and-growth-expertise.md -- Scaling, systems, bottlenecks
+    client-management-expertise.md   -- Retention, communication, upsells
+    booking-ratings-research.md      -- Booking type patterns and tradeoffs
+    deep-business-analysis.md        -- Multi-signal business evaluation
+    gbp-pricing-density-research.md  -- Market density and pricing dynamics
+    rating-correlation-analysis.md   -- What actually predicts ratings
   README.md            -- Folder-specific readme
 ```
 
