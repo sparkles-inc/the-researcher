@@ -18,6 +18,14 @@ There are two winning positions:
 
 The middle is death. You're not cheap enough to win on volume and not expensive enough to win on quality. You just exist.
 
+## Hourly pricing punishes your best cleaners
+
+Pricing by the hour rewards the slowest cleaner and punishes the fastest. If a great cleaner finishes in 2 hours and a mediocre one takes 4, the mediocre one earns double. Price by the job based on a walkthrough assessment. The cleaner who gets faster and better should earn more per hour, not less.
+
+## The revenue trap
+
+You can scale to $700K in revenue and still not make money. More clients, more cleaners, more problems, same profit. Operations become a Frankenstein monster with everything on fire and the owner as the bottleneck for every decision. Sometimes the answer is fewer clients at higher prices. Revenue can shrink while profit stays the same or grows. Fewer clients, same profit, better operations. That's the goal.
+
 ## Price increase letters
 
 When a business raises prices, they need to communicate it to existing clients. This is scary. You can piss people off. But it's necessary for growth.

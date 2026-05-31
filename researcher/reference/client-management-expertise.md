@@ -86,5 +86,21 @@ Score below 50 out of 80? Walk away. Don't take the client. Trust the scorecard.
 
 Third-party verification, ID badges, training certifications. This is the missing piece from most walkthroughs. Clients need to trust before they buy, and credentials are the fastest trust shortcut. A business without visible credentials is leaving conversions on the table.
 
+## Covert contracts destroy businesses
+
+Hidden expectations that nobody put in writing. The client assumes the oven gets cleaned. The cleaner assumes it doesn't. Neither said anything. Three months later, the client is furious and leaves a 1-star review about something that was never discussed.
+
+The fix: the walkthrough checklist IS the agreement. Everything included is checked. Everything excluded is visible. "We guarantee 100% satisfaction on everything we clean. We do not guarantee that we will clean 100% of everything." Quality, not scope.
+
+## Website must-haves for cleaning businesses
+
+A cleaning business website needs these pages at minimum: Home (hero + services + testimonials + booking button), Services, Book Now, About, Contact. FAQ and Reviews pages are bonuses that build trust.
+
+**Booking flow:** "Book Now" button in the header AND the hero. Intake form collects name, email, phone, address, home size, special requests. Automated confirmation email. 24-hour reminder. Post-service follow-up requesting a review.
+
+**SEO basics:** Every service page targets "[service type] + [city]." Full address and phone in footer. Google Business Profile claimed and linked. Blog posts targeting long-tail keywords if they have the bandwidth.
+
+A business with no website is the biggest visibility gap possible. But a beautiful website with no booking is all show, no conversion.
+
 ## The overarching philosophy
 Prevention beats resolution. Proper qualification, expectation-setting, and the intake-to-walkthrough sequence eliminate most complaints before they happen.
