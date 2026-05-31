@@ -105,4 +105,4 @@ The Next.js app adds real-time capabilities on top of the folder:
 
 ## Built by
 
-**Ruby Sparks** -- founder of Tidy Up Portland, builder of the Shine platform, and someone who's been on both sides of the cleaning business equation. The opinions in this researcher come from lived experience, not theory.
+**Ruby Sparks**, founder of Sparkles Inc. Ruby has been a house cleaner, has hired and worked with over 60 house cleaners, and has had house cleaning services herself. She's seen every angle of the industry.
