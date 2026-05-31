@@ -764,7 +764,7 @@ export default function Home() {
                 New research
               </button>
             )}
-            <a href="https://sparkles-inc.com" target="_blank" rel="noopener noreferrer" className="text-muted text-sm hover:text-accent transition-colors">by Sparkles Inc</a>
+            <a href="https://sparkles-inc-site.vercel.app" target="_blank" rel="noopener noreferrer" className="text-muted text-sm hover:text-accent transition-colors">by Sparkles Inc</a>
           </div>
         </div>
       </nav>
