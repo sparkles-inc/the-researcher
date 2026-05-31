@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The Researcher | Sparkles Inc",
+  title: "The Researcher | Sparkles Inc.",
   description: "AI-powered cleaning business intelligence. Investigate businesses, study market patterns, and make data-backed recommendations.",
 };
 

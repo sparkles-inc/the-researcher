@@ -764,7 +764,7 @@ export default function Home() {
                 New research
               </button>
             )}
-            <a href="https://sparkles-inc-site.vercel.app" target="_blank" rel="noopener noreferrer" className="text-muted text-sm hover:text-accent transition-colors">by Sparkles Inc</a>
+            <a href="https://sparkles-inc-site.vercel.app" target="_blank" rel="noopener noreferrer" className="text-muted text-sm hover:text-accent transition-colors">by Sparkles Inc.</a>
           </div>
         </div>
       </nav>
@@ -1108,7 +1108,7 @@ export default function Home() {
                 <Send size={14} />
               </button>
             </div>
-            <p className="text-center text-muted mt-3">Built by <strong className="text-accent font-semibold">Sparkles Inc</strong></p>
+            <p className="text-center text-muted mt-3">Built by <strong className="text-accent font-semibold">Sparkles Inc.</strong></p>
           </div>
         </div>
       </div>

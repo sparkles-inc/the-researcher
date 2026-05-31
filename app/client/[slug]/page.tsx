@@ -5,12 +5,12 @@ import { useState, useEffect, Suspense, CSSProperties } from "react";
 import { motion } from "framer-motion";
 import { Phone, Star, CheckCircle, ArrowRight, Calendar, Sparkles, Play } from "lucide-react";
 
-/* ─── Default Sparkles Inc brand (fallback) ─── */
+/* ─── Default Sparkles Inc. brand (fallback) ─── */
 const DEFAULT_BRAND = {
   color: "#6B21A8",
   colorLight: "#A855F7",
   colorPale: "#F3EAFF",
-  name: "Sparkles Inc",
+  name: "Sparkles Inc.",
 };
 
 function hexToRgb(hex: string): { r: number; g: number; b: number } | null {
