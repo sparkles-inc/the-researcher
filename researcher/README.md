@@ -8,7 +8,7 @@ Drop this folder into a Claude project. You get a research partner that investig
 
 This isn't a summarizer. It's a researcher with opinions.
 
-It has analyzed 125+ real cleaning businesses across 10 US cities and discovered patterns like:
+It's built on expertise from 10,000+ cleaning jobs. The tool has also analyzed 125+ real businesses across 10 US cities and discovered supporting patterns like:
 
 - "Call for quote" pricing costs businesses 0.52 stars on average
 - Pricing calculators generate 3x more reviews but actually hurt ratings
@@ -16,7 +16,7 @@ It has analyzed 125+ real cleaning businesses across 10 US cities and discovered
 - Dense markets have HIGHER average ratings, not lower
 - The combination of team photos + personalized copy predicts 4.8+ rating with 100% accuracy in the dataset
 
-These patterns were discovered by running the tool on real businesses, cross-referencing Google ratings, website features, booking systems, trust signals, and market density data. This dataset will grow as we analyze more markets.
+The expertise comes from running a real cleaning company. The patterns were discovered by running the tool on real businesses. Both layers work together. The pattern dataset will grow as we analyze more markets.
 
 The researcher uses these findings to investigate new businesses and markets. It compares what it finds against what the data says should be true. When something doesn't match, it flags it and asks why.
 

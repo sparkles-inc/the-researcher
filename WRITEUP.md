@@ -2,11 +2,11 @@
 
 ## What I built
 
-A residential cleaning business researcher that investigates, not summarizes. It pulls real Google Places data, scrapes websites, cross-references what it finds against frameworks built from running an actual cleaning company. When a business has a 5.0 rating with 8 reviews, it says "friends and family." When pricing is hidden behind "call for quote," it flags it as the single biggest predictor of low ratings in the data.
+A residential cleaning business researcher that investigates, not summarizes. It's built on expertise from someone who's done 10,000+ cleaning jobs, hired 60+ cleaners, and seen every angle of the industry. When a business has a 5.0 rating with 8 reviews, it says "friends and family." When pricing is hidden behind "call for quote," it knows from experience that's where businesses bleed clients.
 
 The folder works standalone in any Claude project. The app adds real-time capabilities: live Google Places search, website scraping, constraint diagnosis, and personalized sales page generation with the business's own brand colors.
 
-The reference folder has two layers. The first is expertise: Ruby's opinions on pricing, hiring, operations, and client management from 10,000+ cleaning jobs. The second is patterns discovered by running the tool itself on 125+ real businesses across 10 US cities. Together, they give the researcher both judgment and evidence.
+The reference folder has two layers. The core is expertise: Ruby's opinions on pricing, hiring, operations, and client management. The supporting layer is pattern data the tool has discovered by analyzing real businesses across 10 US cities, which will evolve as we run more markets. The expertise drives the reasoning. The data backs it up.
 
 ## One design decision
 

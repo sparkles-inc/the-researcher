@@ -50,7 +50,7 @@ But I'd keep them on your radar for AI operations. One-minute text response is i
 
 Here's what I'm seeing in Portland:
 
-The market is relatively low-density compared to cities like Chicago or LA. Based on the tool's analysis across 10 US cities, Portland is what I'd call an "emerging" market. You only need about 40+ reviews to rank in the top 5 here, compared to 150+ in Chicago.
+The market is relatively low-density compared to cities like Chicago or LA. Portland is what I'd call an "emerging" market. You only need about 40+ reviews to rank in the top 5 here, compared to 150+ in a dense market like Chicago.
 
 That's actually good news for you. The bar to stand out is lower.
 
@@ -73,13 +73,11 @@ Want me to pull up your Google profile and do a side-by-side comparison against 
 
 **Researcher:** That's a common assumption. The data actually says something more nuanced.
 
-From 125+ businesses the tool has analyzed: **generalists (4+ service types) get 2.2x more reviews than specialists.** So by volume, yes, more services = more clients.
+From experience: more services brings more people through the door, but the quality drops. I've seen it over and over. **Generalists get more volume. Specialists get better ratings.** The tool's pattern data backs this up too, 4.87 average for specialists vs 4.73 for generalists.
 
-But here's the catch: **specialists rate HIGHER.** 4.87 average vs 4.73 for generalists. That 0.14 gap is significant. It suggests that offering more services brings more people through the door, but the experience is slightly worse.
-
-Why? A few theories the data supports:
+Why? It's not complicated:
 - More services = more things to be inconsistent at
-- Generalists often have lower prices to compete on breadth, which means lower-paid cleaners, which means higher turnover
+- Generalists often lower prices to compete on breadth, which means lower-paid cleaners, which means higher turnover
 - Specialists attract clients who specifically want that thing (residential recurring), which creates better-matched expectations
 
 The real question isn't "more services or fewer." It's "what are you optimizing for?" Volume or rating?
