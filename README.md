@@ -1,8 +1,8 @@
 # The Researcher
 
-A residential cleaning business intelligence analyst. Part of the Sparkles Inc AI operations layer.
+Backed by industry insights from a business owner who's done over 10,000 jobs in the luxury house cleaning space.
 
-Drop the `researcher/` folder into a Claude project. You get a research partner that investigates cleaning businesses, reasons about what it finds, and helps you make better decisions about the industry.
+Drop the `researcher/` folder into a Claude project. You get a research partner that investigates cleaning businesses, weighs sources by credibility, flags what it can't verify, and coaches you through what it finds.
 
 **Live app:** [app-sparkles-inc.vercel.app](https://app-sparkles-inc.vercel.app)
 **Sparkles Inc:** [sparkles-inc-site.vercel.app](https://sparkles-inc-site.vercel.app)
@@ -11,15 +11,15 @@ Drop the `researcher/` folder into a Claude project. You get a research partner 
 
 This isn't a summarizer. It's a researcher with opinions.
 
-It has a reference database of 125+ real cleaning businesses across 10 US cities, with original findings like:
+Stop making decisions on vibes. See how your competitors stack up and where you're missing the mark. Make progress faster, create a unicorn business, supercharge your strategies.
+
+Original findings from cross-referencing Google ratings, website features, booking systems, trust signals, and market density data:
 
 - "Call for quote" pricing costs businesses 0.52 stars on average
 - Pricing calculators generate 3x more reviews but actually hurt ratings
 - The top 5 predictors of a 4.8+ rating have nothing to do with cleaning quality
 - Dense markets have HIGHER average ratings, not lower
-- The combination of team photos + personalized copy predicts 4.8+ rating with 100% accuracy in the dataset
-
-These aren't opinions pulled from a blog. They're findings from cross-referencing Google ratings, website features, booking systems, trust signals, and market density data.
+- Team photos + personalized copy predicts 4.8+ rating with 100% accuracy in the dataset
 
 The researcher uses these findings to investigate new businesses and markets. It compares what it finds against what the data says should be true. When something doesn't match, it flags it and asks why.
 
@@ -49,7 +49,7 @@ Visit [app-sparkles-inc.vercel.app](https://app-sparkles-inc.vercel.app) to use 
 **Challenge an assumption:**
 > "I think businesses with more services get more clients. Is that true?"
 
-The researcher will ask what angle you're working before it starts. It comes back with findings and follow-up questions, not a final report.
+The researcher asks what angle you're working before it starts. It comes back with findings and follow-up questions, not a final report.
 
 ## What's in the researcher folder
 
@@ -85,11 +85,11 @@ When the data says one thing and the business presents another, the researcher f
 
 The Next.js app adds real-time capabilities on top of the folder:
 
-- **Google Places API** for live business search
+- **Google Places API** for live business search in any US city
 - **Website scraping** for booking, pricing, and trust signal detection
 - **Claude Sonnet** for investigative reasoning
 - **Diagnosis cards** with constraint analysis and recommendations
-- **Sales page generation** for business outreach
+- **Sales page generation** for personalized business outreach
 
 ## Built by
 
