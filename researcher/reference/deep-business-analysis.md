@@ -1,8 +1,10 @@
-# Deep Business Analysis: Cleaning Industry Website & Google Rating Correlations
+# Deep Business Analysis: Website Features vs. Google Ratings
 
-**Research Date:** May 28, 2026
-**Methodology:** Web analysis of 35 residential cleaning businesses across 10 US cities
-**Cities Covered:** Portland OR, Austin TX, Denver CO, Seattle WA, Phoenix AZ, Nashville TN, Charlotte NC, Los Angeles CA, Chicago IL, Miami FL
+Patterns discovered by running the researcher tool on real cleaning businesses. Every data point comes from actual Google Places results, real websites, and real review patterns. This dataset will grow as we analyze more markets.
+
+**Last updated:** May 28, 2026
+**Businesses analyzed:** 35 across 10 US cities
+**Cities:** Portland OR, Austin TX, Denver CO, Seattle WA, Phoenix AZ, Nashville TN, Charlotte NC, Los Angeles CA, Chicago IL, Miami FL
 
 ---
 

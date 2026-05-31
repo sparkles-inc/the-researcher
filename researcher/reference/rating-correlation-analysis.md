@@ -1,9 +1,11 @@
-# Google Rating Correlation Analysis: 26-Factor Study
+# Google Rating Correlation Analysis: 26 Factors
 
-**Research Date:** May 28, 2026
-**Dataset:** 104 cleaning businesses across 10 US cities (Portland, Austin, Denver, Charlotte, Nashville, Seattle, Phoenix, Los Angeles, Chicago, Miami)
-**Sources:** Combined master dataset from booking-ratings-research.md, deep-business-analysis.md, and gbp-pricing-density-research.md
-**After deduplication:** 101 unique businesses analyzed
+Patterns discovered by running the researcher tool on real cleaning businesses. This analysis combines data from all three business analysis files to identify which factors actually predict Google ratings.
+
+**Last updated:** May 28, 2026
+**Businesses analyzed:** 101 unique (after deduplication) across 10 US cities
+**Cities:** Portland, Austin, Denver, Charlotte, Nashville, Seattle, Phoenix, Los Angeles, Chicago, Miami
+**Sources:** Combined from booking-ratings-research.md, deep-business-analysis.md, and gbp-pricing-density-research.md
 
 ---
 

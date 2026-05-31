@@ -8,7 +8,7 @@ Drop this folder into a Claude project. You get a research partner that investig
 
 This isn't a summarizer. It's a researcher with opinions.
 
-It has a reference database of 125+ real cleaning businesses across 10 US cities, with original findings like:
+It has analyzed 125+ real cleaning businesses across 10 US cities and discovered patterns like:
 
 - "Call for quote" pricing costs businesses 0.52 stars on average
 - Pricing calculators generate 3x more reviews but actually hurt ratings
@@ -16,7 +16,7 @@ It has a reference database of 125+ real cleaning businesses across 10 US cities
 - Dense markets have HIGHER average ratings, not lower
 - The combination of team photos + personalized copy predicts 4.8+ rating with 100% accuracy in the dataset
 
-These aren't opinions pulled from a blog. They're findings from cross-referencing Google ratings, website features, booking systems, trust signals, and market density data.
+These patterns were discovered by running the tool on real businesses, cross-referencing Google ratings, website features, booking systems, trust signals, and market density data. This dataset will grow as we analyze more markets.
 
 The researcher uses these findings to investigate new businesses and markets. It compares what it finds against what the data says should be true. When something doesn't match, it flags it and asks why.
 
@@ -48,14 +48,23 @@ researcher/
   rules.md             — How it thinks, investigates, and reasons
   examples.md          — Real conversations showing the researcher in action
   reference/
-    booking-ratings-research.md      — 50 businesses: booking type vs ratings
-    deep-business-analysis.md        — 35 businesses: 98-point scoring model
-    gbp-pricing-density-research.md  — 40 businesses: GBP, pricing, market density
-    rating-correlation-analysis.md   — 101 businesses: what predicts rating
-    constraint-framework.md          — Three growth levers + special cases
-    signal-checklist.md              — Every signal with specific thresholds
+    # Frameworks (from lived experience)
+    constraint-framework.md          — The three growth levers every business maps to
     source-credibility.md            — How to weigh different data sources
+    signal-checklist.md              — Every signal with specific thresholds
     must-have-checklist.md           — 27-point operational scoring rubric
+
+    # Expertise (Ruby's opinions from 10,000+ jobs)
+    pricing-expertise.md             — How cleaning pricing actually works
+    hiring-expertise.md              — What to look for in cleaners
+    operations-and-growth-expertise.md — Scaling, systems, bottlenecks
+    client-management-expertise.md   — Retention, communication, upsells
+
+    # Patterns (discovered by running the tool on real businesses)
+    booking-ratings-research.md      — Booking type vs rating patterns (50 businesses)
+    deep-business-analysis.md        — Website feature scoring (35 businesses)
+    gbp-pricing-density-research.md  — GBP, pricing, market density (40 businesses)
+    rating-correlation-analysis.md   — What actually predicts ratings (101 businesses)
   README.md            — You're reading it
 ```
 

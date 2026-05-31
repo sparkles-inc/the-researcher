@@ -1,7 +1,9 @@
-# GBP Completeness, Pricing Transparency & Market Density Research
+# GBP Completeness, Pricing Transparency & Market Density
 
-**Research Date:** May 28, 2026
-**Scope:** 35 cleaning businesses across 10 US cities
+Patterns discovered by running the researcher tool on real cleaning businesses. Every data point comes from actual Google Places results, real websites, and real pricing pages. This dataset will grow as we analyze more markets.
+
+**Last updated:** May 28, 2026
+**Businesses analyzed:** 35 across 10 US cities
 **Cities:** Portland OR, Austin TX, Denver CO, Seattle WA, Phoenix AZ, Nashville TN, Charlotte NC, Los Angeles CA, Chicago IL, Miami FL
 
 ---

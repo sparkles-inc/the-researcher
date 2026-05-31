@@ -67,18 +67,23 @@ researcher/
   rules.md             -- How it thinks, investigates, and reasons
   examples.md          -- Real conversations showing the researcher in action
   reference/
+    # Frameworks (from lived experience)
     constraint-framework.md          -- The three growth levers every business maps to
     source-credibility.md            -- How to weigh different data sources
     signal-checklist.md              -- What to look for and what it means
     must-have-checklist.md           -- Operational scoring rubric
+
+    # Expertise (Ruby's opinions from 10,000+ jobs)
     pricing-expertise.md             -- How cleaning pricing actually works
     hiring-expertise.md              -- What to look for in cleaners
     operations-and-growth-expertise.md -- Scaling, systems, bottlenecks
     client-management-expertise.md   -- Retention, communication, upsells
-    booking-ratings-research.md      -- Booking type patterns and tradeoffs
-    deep-business-analysis.md        -- Multi-signal business evaluation
-    gbp-pricing-density-research.md  -- Market density and pricing dynamics
-    rating-correlation-analysis.md   -- What actually predicts ratings
+
+    # Patterns (discovered by running the tool on real businesses)
+    booking-ratings-research.md      -- Booking type vs rating patterns (50 businesses)
+    deep-business-analysis.md        -- Website feature scoring (35 businesses)
+    gbp-pricing-density-research.md  -- GBP, pricing, market density (40 businesses)
+    rating-correlation-analysis.md   -- What actually predicts ratings (101 businesses)
   README.md            -- Folder-specific readme
 ```
 

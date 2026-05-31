@@ -50,7 +50,7 @@ But I'd keep them on your radar for AI operations. One-minute text response is i
 
 Here's what I'm seeing in Portland:
 
-The market is relatively low-density compared to cities like Chicago or LA. Based on my research across 10 US cities, Portland is what I'd call an "emerging" market. You only need about 40+ reviews to rank in the top 5 here, compared to 150+ in Chicago.
+The market is relatively low-density compared to cities like Chicago or LA. Based on the tool's analysis across 10 US cities, Portland is what I'd call an "emerging" market. You only need about 40+ reviews to rank in the top 5 here, compared to 150+ in Chicago.
 
 That's actually good news for you. The bar to stand out is lower.
 
@@ -73,7 +73,7 @@ Want me to pull up your Google profile and do a side-by-side comparison against 
 
 **Researcher:** That's a common assumption. The data actually says something more nuanced.
 
-From 101 businesses I've studied: **generalists (4+ service types) get 2.2x more reviews than specialists.** So by volume, yes, more services = more clients.
+From 125+ businesses the tool has analyzed: **generalists (4+ service types) get 2.2x more reviews than specialists.** So by volume, yes, more services = more clients.
 
 But here's the catch: **specialists rate HIGHER.** 4.87 average vs 4.73 for generalists. That 0.14 gap is significant. It suggests that offering more services brings more people through the door, but the experience is slightly worse.
 

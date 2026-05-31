@@ -1,8 +1,10 @@
-# Booking Systems vs. Google Ratings: Cleaning Business Research
+# Booking Systems vs. Google Ratings
 
-**Research Date:** May 28, 2026
-**Methodology:** Web research across 10 US cities, 50 cleaning businesses
-**Cities Surveyed:** Portland OR, Austin TX, Denver CO, Charlotte NC, Nashville TN, Seattle WA, Phoenix AZ, Los Angeles CA, Chicago IL, Miami FL
+Patterns discovered by running the researcher tool on real cleaning businesses. Every data point below comes from actual Google Places results, real websites, and real review counts. This dataset will grow as we analyze more markets.
+
+**Last updated:** May 28, 2026
+**Businesses analyzed:** 50 across 10 US cities
+**Cities:** Portland OR, Austin TX, Denver CO, Charlotte NC, Nashville TN, Seattle WA, Phoenix AZ, Los Angeles CA, Chicago IL, Miami FL
 
 ---
 
