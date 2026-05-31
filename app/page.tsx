@@ -752,19 +752,19 @@ export default function Home() {
       {/* Nav */}
       <nav className="shrink-0 relative z-20 border-b border-border/50 bg-surface">
         <div className="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3 cursor-pointer" onClick={startOver}>
-            <div className="flex items-center gap-2.5 bg-[#131A2E] px-3.5 py-1.5 rounded-xl">
-              <span className="text-lg">🔍</span>
-              <span className="font-bold text-[#F5F2EB] tracking-tight text-lg" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>The Researcher</span>
+          <div className="flex items-center gap-3 cursor-pointer shrink-0" onClick={startOver}>
+            <div className="flex items-center gap-2 sm:gap-2.5 bg-[#131A2E] px-2.5 sm:px-3.5 py-1.5 rounded-xl">
+              <span className="text-base sm:text-lg">🔍</span>
+              <span className="font-bold text-[#F5F2EB] tracking-tight text-base sm:text-lg" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>The Researcher</span>
             </div>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
             {hasMessages && (
-              <button onClick={startOver} className="text-muted hover:text-accent transition-colors font-medium text-sm">
+              <button onClick={startOver} className="text-muted hover:text-accent transition-colors font-medium text-xs sm:text-sm">
                 New research
               </button>
             )}
-            <a href="https://sparkles-inc-site.vercel.app" target="_blank" rel="noopener noreferrer" className="text-muted text-sm hover:text-accent transition-colors">by Sparkles Inc.</a>
+            <a href="https://sparkles-inc-site.vercel.app" target="_blank" rel="noopener noreferrer" className="text-muted text-xs sm:text-sm hover:text-accent transition-colors whitespace-nowrap">by Sparkles Inc.</a>
           </div>
         </div>
       </nav>
