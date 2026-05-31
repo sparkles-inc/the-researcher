@@ -21,15 +21,13 @@ Backed by industry insights from a business owner who's done over 10,000 jobs in
 
 This isn't a summarizer. It's a researcher with opinions.
 
-Original findings from cross-referencing Google ratings, website features, booking systems, trust signals, and market density data:
+It cross-examines real businesses and surfaces findings you wouldn't catch on your own. Things like:
 
-- "Call for quote" pricing costs businesses 0.52 stars on average
+- "Call for quote" pricing correlates with a 0.52 star rating drop
 - Pricing calculators generate 3x more reviews but actually hurt ratings
 - The top 5 predictors of a 4.8+ rating have nothing to do with cleaning quality
-- Dense markets have HIGHER average ratings, not lower
-- Team photos + personalized copy predicts 4.8+ rating with 100% accuracy in the dataset
 
-When the data says one thing and the business presents another, the researcher flags it. Contradictions are where the real intelligence lives.
+The frameworks behind these insights come from running a real cleaning company. The tool applies them to any market, any business, in real time. When the data says one thing and the business presents another, the researcher flags it. Contradictions are where the real intelligence lives.
 
 ## Quick start
 
