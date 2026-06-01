@@ -812,7 +812,7 @@ export default function Home() {
                       <Target size={22} className="text-accent" />
                     </div>
                     <h3 className="text-2xl font-bold text-foreground mb-2" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>Business Reach Out</h3>
-                    <p className="text-muted text-base leading-relaxed">Search a city, diagnose businesses, and build a personalized pitch for what they need.</p>
+                    <p className="text-muted text-base leading-relaxed">Search a market, diagnose businesses, and build a personalized pitch for what they need.</p>
                   </button>
                 </div>
 
