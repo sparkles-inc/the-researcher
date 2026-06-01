@@ -128,7 +128,7 @@ function TypingIndicator({ toolStatus }: { toolStatus: string | null }) {
     generate_recommendation_card: "Building diagnosis",
   };
   return (
-    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="flex items-center gap-3 py-5">
+    <div className="flex items-center gap-3 py-5">
       <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-accent/20 to-accent/5 flex items-center justify-center border border-accent/10">
         <Search size={14} className="text-accent" />
       </div>
@@ -138,7 +138,7 @@ function TypingIndicator({ toolStatus }: { toolStatus: string | null }) {
           <span key={delay} className="w-1.5 h-1.5 bg-accent rounded-full animate-pulse-dot" style={{ animationDelay: `${delay}s` }} />
         ))}
       </div>
-    </motion.div>
+    </div>
   );
 }
 
@@ -189,7 +189,7 @@ function DiagnosisPanel({ data, onBuildSalesPage }: { data: RecommendationData; 
   const currentStarProduct = ALL_PRODUCTS.find((p) => p.id === selectedStar);
 
   return (
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
+    <div
       className="mt-8 space-y-6">
 
       {/* Business Header */}
@@ -377,7 +377,7 @@ function DiagnosisPanel({ data, onBuildSalesPage }: { data: RecommendationData; 
           <ArrowRight size={18} className="group-hover:translate-x-0.5 transition-transform" />
         </button>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
@@ -390,7 +390,7 @@ interface BatchBusiness {
 
 function BatchTabs({ businesses, activeIdx, onSelect }: { businesses: BatchBusiness[]; activeIdx: number | null; onSelect: (idx: number) => void }) {
   return (
-    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
+    <div
       className="sticky top-0 z-20 bg-background/95 backdrop-blur-xl border-b border-border/30 -mx-4 px-4 py-5 mb-8">
       <p className="text-muted/40 font-medium mb-3">{businesses.length} businesses found. Select one to diagnose.</p>
       <div className="relative">
@@ -408,7 +408,7 @@ function BatchTabs({ businesses, activeIdx, onSelect }: { businesses: BatchBusin
         {/* Scroll fade hint on right */}
         <div className="absolute right-0 top-0 bottom-2 w-16 bg-gradient-to-l from-background/95 to-transparent pointer-events-none" />
       </div>
-    </motion.div>
+    </div>
   );
 }
 
@@ -771,29 +771,28 @@ export default function Home() {
 
       {/* Main */}
       <div className="flex-1 flex flex-col relative z-10">
-        <AnimatePresence mode="wait">
-          {!hasMessages ? (
+        {!hasMessages ? (
             /* ─── Landing ─── */
-            <motion.div key="hero" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="flex-1 flex flex-col items-center justify-center px-6">
+            <div className="flex-1 flex flex-col items-center justify-center px-6">
               <div className="max-w-3xl w-full text-center">
-                <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}
+                <div
                   className="w-16 h-16 rounded-2xl bg-gradient-to-br from-accent/15 to-accent/5 border border-accent/10 flex items-center justify-center mb-8 mx-auto shadow-lg shadow-accent/5">
                   <Search size={28} className="text-accent" />
-                </motion.div>
+                </div>
 
-                <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }}
+                <h1
                   className="text-4xl md:text-5xl font-bold text-foreground tracking-tight leading-[1.15] mb-4">
                   Cleaning Industry<br />
                   <span className="gradient-text">Research Assistant.</span>
-                </motion.h1>
+                </h1>
 
-                <motion.p initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.35 }}
+                <p
                   className="text-muted text-lg mb-10 max-w-2xl mx-auto">
                   Weighs sources, flags uncertainty, and synthesizes patterns to surface what you'd miss on your own.
-                </motion.p>
+                </p>
 
                 {/* Step 1: Choose your direction */}
-                <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.45 }}
+                <div
                   className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-2xl mx-auto">
 
                   {/* Open Ended */}
@@ -815,34 +814,34 @@ export default function Home() {
                     <h3 className="text-2xl font-bold text-foreground mb-2" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>Business Reach Out</h3>
                     <p className="text-muted text-base leading-relaxed">Search a city, diagnose businesses, and build a personalized pitch for what they need.</p>
                   </button>
-                </motion.div>
+                </div>
 
               </div>
-            </motion.div>
+            </div>
           ) : (
             /* ─── Research + Diagnosis ─── */
-            <motion.div key="research" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex-1 overflow-y-auto px-4 py-8">
+            <div className="flex-1 overflow-y-auto px-4 py-8">
               <div className="max-w-3xl mx-auto">
 
                 {/* ─── RESEARCH MODE: examples + open input ─── */}
                 {showResearch && !showIntake && !messages.length && (
                   <div className="max-w-xl mx-auto flex flex-col items-center pt-12">
-                    <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}
+                    <div
                       className="w-14 h-14 rounded-2xl bg-gradient-to-br from-accent/15 to-accent/5 border border-accent/10 flex items-center justify-center mb-6 shadow-lg shadow-accent/5">
                       <Search size={24} className="text-accent" />
-                    </motion.div>
+                    </div>
 
-                    <motion.h2 initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.1 }}
+                    <h2
                       className="text-3xl font-bold text-foreground tracking-tight text-center mb-2"
                       style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>
                       What do you want to know?
-                    </motion.h2>
-                    <motion.p initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}
+                    </h2>
+                    <p
                       className="text-muted text-base mb-10 text-center max-w-xl">
                       Ask anything. I'll push back, ask questions, and use real data to back it up.
-                    </motion.p>
+                    </p>
 
-                    <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }}
+                    <div
                       className="w-full flex flex-col gap-3">
                       {[
                         "I'm thinking about lowering my prices to get more clients.",
@@ -852,14 +851,13 @@ export default function Home() {
                         "I just started. What should I focus on first?",
                         "How do I know when to raise my prices?",
                       ].map((prompt, i) => (
-                        <motion.button key={prompt} initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }}
-                          transition={{ duration: 0.3, delay: 0.35 + i * 0.05 }}
+                        <button key={prompt}
                           onClick={() => { setShowResearch(false); sendMessage(prompt); }}
                           className="text-left px-5 py-4 rounded-xl bg-surface border border-border/50 text-muted hover:text-foreground hover:border-accent/30 hover:bg-surface/80 transition-all text-base">
                           {prompt}
-                        </motion.button>
+                        </button>
                       ))}
-                    </motion.div>
+                    </div>
                   </div>
                 )}
 
@@ -868,22 +866,22 @@ export default function Home() {
                   <div className="max-w-xl mx-auto flex flex-col items-center pt-8">
 
                     {/* Header */}
-                    <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}
+                    <div
                       className="w-14 h-14 rounded-2xl bg-gradient-to-br from-accent/15 to-accent/5 border border-accent/10 flex items-center justify-center mb-6 shadow-lg shadow-accent/5">
                       <Search size={24} className="text-accent" />
-                    </motion.div>
+                    </div>
 
-                    <motion.h2 initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.1 }}
+                    <h2
                       className="text-3xl md:text-4xl font-bold text-foreground tracking-tight text-center mb-2">
                       Let's narrow it down.
-                    </motion.h2>
-                    <motion.p initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}
+                    </h2>
+                    <p
                       className="text-muted/50 text-lg text-center mb-12">
                       A couple questions so I find the right ones.
-                    </motion.p>
+                    </p>
 
                     {/* Gap selection */}
-                    <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }}
+                    <div
                       className="w-full mb-10">
                       <div className="flex items-center gap-3 mb-4">
                         <span className="w-7 h-7 rounded-full bg-accent/10 border border-accent/20 flex items-center justify-center text-accent font-bold text-sm">1</span>
@@ -902,10 +900,10 @@ export default function Home() {
                         ))}
                       </div>
                       <p className="text-muted/60 text-sm mt-3 pl-10">Select any that apply, or skip to search broadly.</p>
-                    </motion.div>
+                    </div>
 
                     {/* City */}
-                    <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.4 }}
+                    <div
                       className="w-full mb-10">
                       <div className="flex items-center gap-3 mb-4">
                         <span className="w-7 h-7 rounded-full bg-accent/10 border border-accent/20 flex items-center justify-center text-accent font-bold text-sm">2</span>
@@ -921,10 +919,10 @@ export default function Home() {
                         </div>
                         <p className="text-muted/25 text-sm mt-2 ml-1">City, state, or region to search in</p>
                       </div>
-                    </motion.div>
+                    </div>
 
                     {/* Age + Reviews side by side */}
-                    <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.5 }}
+                    <div
                       className="w-full mb-12">
                       <div className="flex items-center gap-3 mb-4">
                         <span className="w-7 h-7 rounded-full bg-accent/10 border border-accent/20 flex items-center justify-center text-accent font-bold text-sm">3</span>
@@ -974,10 +972,10 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                    </motion.div>
+                    </div>
 
                     {/* Go button */}
-                    <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.6 }}
+                    <div
                       className="w-full pl-10">
                       <button onClick={handleIntakeSubmit}
                         className="group w-full inline-flex items-center justify-center gap-3 bg-gradient-to-br from-accent to-accent-light hover:shadow-xl hover:shadow-accent/25 hover:scale-[1.01] text-white px-8 py-5 rounded-xl text-xl font-semibold transition-all">
@@ -985,7 +983,7 @@ export default function Home() {
                         Find cleaning businesses
                         <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                       </button>
-                    </motion.div>
+                    </div>
                   </div>
                 )}
 
@@ -1055,7 +1053,7 @@ export default function Home() {
                   <div>
                     <div className="space-y-4 mb-8">
                       {messages.map((msg) => (
-                        <motion.div key={msg.id} initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}
+                        <div
                           className={msg.role === "user" ? "flex justify-end" : ""}>
                           {msg.role === "user" ? (
                             <div className="max-w-[85%] bg-accent/8 border border-accent/15 rounded-2xl rounded-br-sm px-6 py-4">
@@ -1075,7 +1073,7 @@ export default function Home() {
                               </div>
                             </div>
                           )}
-                        </motion.div>
+                        </div>
                       ))}
                       {isLoading && <TypingIndicator toolStatus={toolStatus} />}
                     </div>
@@ -1088,9 +1086,9 @@ export default function Home() {
                 )}
                 <div ref={messagesEndRef} />
               </div>
-            </motion.div>
+            </div>
           )}
-        </AnimatePresence>
+        
 
         {/* Input — hidden during intake only */}
         <div className={`shrink-0 relative z-20 border-t border-border/30 ${(showIntake && !messages.length) || !hasMessages ? "hidden" : ""}`}>
