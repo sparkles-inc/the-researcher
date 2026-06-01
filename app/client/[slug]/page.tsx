@@ -254,13 +254,13 @@ function ClientPageInner() {
             <p className="text-lg font-semibold uppercase tracking-widest mb-6" style={{ color: brandColor }}>
               Our #1 recommendation
             </p>
-            <div className="rounded-2xl p-10 text-center" style={{ background: `linear-gradient(135deg, ${brandColor}, ${brandLight})` }}>
-              <Sparkles size={32} className="text-white/80 mx-auto mb-4" />
+            <div className="rounded-2xl p-10" style={{ background: `linear-gradient(135deg, ${brandColor}, ${brandLight})` }}>
+              <Sparkles size={28} className="text-white/60 mb-4" />
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4"
                 style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>
                 {data.star.name}
               </h2>
-              <p className="text-xl text-white/80 max-w-md mx-auto leading-relaxed">{toYou(data.star.reason || "")}</p>
+              <p className="text-xl text-white/80 leading-relaxed max-w-lg">{toYou(data.star.reason || "")}</p>
             </div>
           </motion.div>
         )}
