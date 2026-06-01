@@ -743,8 +743,8 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col relative">
-      {/* Background */}
-      <div className="fixed inset-0 pointer-events-none overflow-hidden">
+      {/* Background - hidden on mobile for Safari performance */}
+      <div className="hidden sm:block fixed inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-[15%] left-[10%] w-[500px] h-[500px] bg-accent/[0.06] rounded-full blur-[150px]" />
         <div className="absolute bottom-[20%] right-[15%] w-[400px] h-[400px] bg-sage/[0.05] rounded-full blur-[130px]" />
       </div>
