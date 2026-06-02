@@ -750,19 +750,18 @@ export default function Home() {
       </div>
 
       {/* Nav */}
-      <nav className="shrink-0 relative z-20 border-b border-border/50 bg-[#FAFAF8]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
-          <a href="https://sparkles-inc-site.vercel.app" className="flex items-center gap-2 sm:gap-3 bg-[#131A2E] px-2 sm:px-4 py-1 sm:py-1.5 rounded-xl no-underline">
-            <img src="/sparkles-logo-nav.png" alt="" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[#F5F2EB] p-0.5" />
-            <span className="font-bold text-[#F5F2EB] tracking-tight text-base sm:text-2xl" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>Sparkles Inc.</span>
+      <nav className="shrink-0 relative z-20 border-b border-border/50 bg-surface">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
+          <a href="https://sparkles-inc-site.vercel.app" className="flex items-center no-underline">
+            <img src="/sparkles-logo-nav.png" alt="Sparkles Inc." className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-[#131A2E] p-1" />
           </a>
-          <div className="flex items-center gap-3 sm:gap-6">
+          <div className="flex items-center gap-4 sm:gap-6">
             {hasMessages && (
               <button onClick={startOver} className="text-muted hover:text-accent transition-colors font-medium text-xs sm:text-sm">
                 New research
               </button>
             )}
-            <a href="https://sparkles-inc-site.vercel.app" className="text-sm sm:text-lg font-medium text-muted hover:text-accent transition-colors no-underline hidden sm:inline">Home</a>
+            <span className="font-bold text-foreground tracking-tight text-sm sm:text-lg" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>The Researcher</span>
           </div>
         </div>
       </nav>
@@ -773,7 +772,6 @@ export default function Home() {
             /* ─── Landing ─── */
             <div className="flex-1 flex flex-col items-center justify-center px-6 pt-10 sm:pt-0">
               <div className="max-w-3xl w-full text-center">
-                <p className="text-sm sm:text-base font-semibold uppercase tracking-widest text-accent mb-3">The Researcher</p>
                 <h1
                   className="text-4xl md:text-5xl font-bold text-foreground tracking-tight leading-[1.15] mb-4">
                   Cleaning Industry<br />
