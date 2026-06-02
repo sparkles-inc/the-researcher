@@ -773,11 +773,6 @@ export default function Home() {
             /* ─── Landing ─── */
             <div className="flex-1 flex flex-col items-center justify-center px-6 pt-10 sm:pt-0">
               <div className="max-w-3xl w-full text-center">
-                <div
-                  className="w-16 h-16 rounded-2xl bg-gradient-to-br from-accent/15 to-accent/5 border border-accent/10 flex items-center justify-center mb-8 mx-auto shadow-lg shadow-accent/5">
-                  <Search size={28} className="text-accent" />
-                </div>
-
                 <h1
                   className="text-4xl md:text-5xl font-bold text-foreground tracking-tight leading-[1.15] mb-4">
                   Cleaning Industry<br />
