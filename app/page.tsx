@@ -752,17 +752,15 @@ export default function Home() {
       {/* Nav */}
       <nav className="shrink-0 relative z-20 border-b border-border/50 bg-surface">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
-          <a href="https://sparkles-inc-site.vercel.app" className="flex items-center no-underline">
-            <img src="/sparkles-logo-nav.png" alt="Sparkles Inc." className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-[#131A2E] p-1" />
+          <a href="https://sparkles-inc-site.vercel.app" className="flex items-center gap-3 no-underline">
+            <img src="/sparkles-logo-nav.png" alt="Sparkles Inc." className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#131A2E] p-0.5" />
+            <span className="font-bold text-foreground tracking-tight text-sm sm:text-base" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>The Researcher</span>
           </a>
-          <div className="flex items-center gap-4 sm:gap-6">
-            {hasMessages && (
-              <button onClick={startOver} className="text-muted hover:text-accent transition-colors font-medium text-xs sm:text-sm">
-                New research
-              </button>
-            )}
-            <span className="font-bold text-foreground tracking-tight text-sm sm:text-lg" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>The Researcher</span>
-          </div>
+          {hasMessages && (
+            <button onClick={startOver} className="text-muted hover:text-accent transition-colors font-medium text-xs sm:text-sm">
+              New research
+            </button>
+          )}
         </div>
       </nav>
 
