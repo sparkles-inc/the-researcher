@@ -778,7 +778,7 @@ export default function Home() {
 
                 <p
                   className="text-muted text-lg mb-10 max-w-2xl mx-auto">
-                  Weighs sources, flags uncertainty, and synthesizes patterns to surface what you'd miss on your own.
+                  Built on 10,000+ cleaning jobs of real industry expertise.
                 </p>
 
                 {/* Step 1: Choose your direction */}
