@@ -787,21 +787,25 @@ export default function Home() {
 
                   {/* Open Ended */}
                   <button onClick={() => { setShowResearch(true); setTimeout(() => inputRef.current?.focus(), 300); }}
-                    className="group text-left p-8 rounded-2xl bg-surface border-2 border-border hover:border-accent/40 hover:shadow-lg hover:shadow-accent/5 transition-all">
-                    <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center mb-5">
-                      <Search size={22} className="text-accent" />
+                    className="group text-left p-7 rounded-2xl bg-surface border-2 border-border hover:border-accent/40 hover:shadow-lg hover:shadow-accent/5 transition-all">
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center shrink-0">
+                        <Search size={20} className="text-accent" />
+                      </div>
+                      <h3 className="text-2xl font-bold text-foreground" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>Open Ended</h3>
                     </div>
-                    <h3 className="text-2xl font-bold text-foreground mb-2" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>Open Ended</h3>
                     <p className="text-muted text-base leading-relaxed">Ask questions, test strategies, and get coached through decisions with real data behind it.</p>
                   </button>
 
                   {/* Business Reach Out */}
                   <button onClick={handleFindBusinesses}
-                    className="group text-left p-8 rounded-2xl bg-surface border-2 border-border hover:border-accent/40 hover:shadow-lg hover:shadow-accent/5 transition-all">
-                    <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center mb-5">
-                      <Target size={22} className="text-accent" />
+                    className="group text-left p-7 rounded-2xl bg-surface border-2 border-border hover:border-accent/40 hover:shadow-lg hover:shadow-accent/5 transition-all">
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center shrink-0">
+                        <Target size={20} className="text-accent" />
+                      </div>
+                      <h3 className="text-2xl font-bold text-foreground" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>Business Reach Out</h3>
                     </div>
-                    <h3 className="text-2xl font-bold text-foreground mb-2" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>Business Reach Out</h3>
                     <p className="text-muted text-base leading-relaxed">Search a market, diagnose businesses, and build a personalized pitch for what they need.</p>
                   </button>
                 </div>
