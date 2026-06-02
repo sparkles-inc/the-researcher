@@ -756,6 +756,7 @@ export default function Home() {
             <div className="flex items-center gap-2.5 bg-[#131A2E] px-4 py-2 rounded-xl">
               <span className="text-base sm:text-lg">🔍</span>
               <span className="font-bold text-[#F5F2EB] tracking-tight text-sm sm:text-lg" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>The Researcher</span>
+              <span className="text-[#F5F2EB]/50 text-xs sm:text-sm tracking-tight">by Sparkles Inc.</span>
             </div>
           </div>
           {hasMessages && (
@@ -813,9 +814,7 @@ export default function Home() {
                   </button>
                 </div>
 
-                <div className="mt-16 mb-8 text-center">
-                  <a href="https://sparkles-inc-site.vercel.app" target="_blank" rel="noopener noreferrer" className="text-muted text-sm hover:text-accent transition-colors">Sparkles Inc.</a>
-                </div>
+                <div className="mt-16 mb-8" />
 
               </div>
             </div>
