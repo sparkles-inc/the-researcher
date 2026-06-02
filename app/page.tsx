@@ -1093,7 +1093,7 @@ export default function Home() {
             <div className="relative">
               <textarea ref={inputRef} value={input} onChange={(e) => setInput(e.target.value)}
                 onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(input); } }}
-                placeholder={hasMessages ? "Ask a follow-up or research another business..." : "Type a business name or city to research..."}
+                placeholder={hasMessages ? "Ask me anything..." : "Type a business name or city to research..."}
                 disabled={isLoading}
                 rows={2}
                 className="w-full bg-surface border border-border rounded-xl px-5 py-4 text-foreground text-lg placeholder:text-muted/25 focus:outline-none disabled:opacity-40 transition-all resize-none leading-relaxed" />
