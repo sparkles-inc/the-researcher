@@ -751,20 +751,18 @@ export default function Home() {
 
       {/* Nav */}
       <nav className="shrink-0 relative z-20 border-b border-border/50 bg-surface">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
-          <div className="flex items-center cursor-pointer shrink-0" onClick={startOver}>
-            <div className="flex items-center gap-2 bg-[#131A2E] px-3 py-1.5 rounded-xl">
-              <span className="text-sm sm:text-lg">🔍</span>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-center relative">
+          <div className="flex items-center cursor-pointer" onClick={startOver}>
+            <div className="flex items-center gap-2.5 bg-[#131A2E] px-4 py-2 rounded-xl">
+              <span className="text-base sm:text-lg">🔍</span>
               <span className="font-bold text-[#F5F2EB] tracking-tight text-sm sm:text-lg" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>The Researcher</span>
             </div>
           </div>
-          <div className="flex items-center gap-2 sm:gap-4">
-            {hasMessages && (
-              <button onClick={startOver} className="text-muted hover:text-accent transition-colors font-medium text-xs sm:text-sm">
-                New research
-              </button>
-            )}
-          </div>
+          {hasMessages && (
+            <button onClick={startOver} className="absolute right-4 sm:right-6 text-muted hover:text-accent transition-colors font-medium text-xs sm:text-sm">
+              New research
+            </button>
+          )}
         </div>
       </nav>
 
