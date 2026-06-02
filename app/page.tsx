@@ -771,15 +771,10 @@ export default function Home() {
             <div className="flex-1 flex flex-col items-center justify-center px-6 pt-16 sm:pt-8">
               <div className="max-w-3xl w-full text-center">
                 <h1
-                  className="text-4xl md:text-5xl font-bold text-foreground tracking-tight leading-[1.15] mb-4">
+                  className="text-4xl md:text-5xl font-bold text-foreground tracking-tight leading-[1.15] mb-10">
                   Cleaning Industry<br />
                   <span className="gradient-text">Research Assistant.</span>
                 </h1>
-
-                <p
-                  className="text-muted text-lg mb-10 max-w-2xl mx-auto">
-                  Built on 10,000+ cleaning jobs of real industry expertise.
-                </p>
 
                 {/* Step 1: Choose your direction */}
                 <div
