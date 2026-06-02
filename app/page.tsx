@@ -751,20 +751,19 @@ export default function Home() {
 
       {/* Nav */}
       <nav className="shrink-0 relative z-20 border-b border-border/50 bg-surface">
-        <div className="max-w-4xl mx-auto px-6 h-20 sm:h-18 flex items-center justify-between">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
           <div className="flex items-center cursor-pointer shrink-0" onClick={startOver}>
-            <div className="flex items-center gap-2.5 bg-[#131A2E] px-4 py-2 rounded-xl">
-              <span className="text-lg">🔍</span>
-              <span className="font-bold text-[#F5F2EB] tracking-tight text-lg" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>The Researcher</span>
+            <div className="flex items-center gap-2 bg-[#131A2E] px-3 py-1.5 rounded-xl">
+              <span className="text-sm sm:text-lg">🔍</span>
+              <span className="font-bold text-[#F5F2EB] tracking-tight text-sm sm:text-lg" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>The Researcher</span>
             </div>
           </div>
-          <div className="flex items-center gap-3 sm:gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
             {hasMessages && (
-              <button onClick={startOver} className="text-muted hover:text-accent transition-colors font-medium text-sm">
+              <button onClick={startOver} className="text-muted hover:text-accent transition-colors font-medium text-xs sm:text-sm">
                 New research
               </button>
             )}
-            <a href="https://sparkles-inc-site.vercel.app" target="_blank" rel="noopener noreferrer" className="text-muted text-sm hover:text-accent transition-colors whitespace-nowrap">by Sparkles Inc.</a>
           </div>
         </div>
       </nav>
@@ -814,6 +813,10 @@ export default function Home() {
                     <h3 className="text-2xl font-bold text-foreground mb-2" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>Business Reach Out</h3>
                     <p className="text-muted text-base leading-relaxed">Search a market, diagnose businesses, and build a personalized pitch for what they need.</p>
                   </button>
+                </div>
+
+                <div className="mt-16 mb-8 text-center">
+                  <a href="https://sparkles-inc-site.vercel.app" target="_blank" rel="noopener noreferrer" className="text-muted text-sm hover:text-accent transition-colors">Sparkles Inc.</a>
                 </div>
 
               </div>
