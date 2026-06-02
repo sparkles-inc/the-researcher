@@ -751,7 +751,7 @@ export default function Home() {
 
       {/* Nav */}
       <nav className="shrink-0 relative z-20 border-b border-border/50 bg-surface">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
           <a href="https://sparkles-inc-site.vercel.app" className="flex items-center no-underline">
             <img src="/sparkles-logo-nav.png" alt="Sparkles Inc." className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-[#131A2E] p-1" />
           </a>
@@ -770,7 +770,7 @@ export default function Home() {
       <div className="flex-1 flex flex-col relative z-10">
         {!hasMessages ? (
             /* ─── Landing ─── */
-            <div className="flex-1 flex flex-col items-center justify-center px-6 pt-10 sm:pt-0">
+            <div className="flex-1 flex flex-col items-center justify-center px-6 pt-16 sm:pt-8">
               <div className="max-w-3xl w-full text-center">
                 <h1
                   className="text-4xl md:text-5xl font-bold text-foreground tracking-tight leading-[1.15] mb-4">
